@@ -1,0 +1,22 @@
+{
+  "name": "TidySL",
+  "version": "0.1.0",
+  "authors": [
+    "ctopjian"
+  ],
+  "description": "versatile development echo system which utilizes toolsets like: grunt and bower to automate common repetitive tasks throughout front-end development. TidySL is planned to be setup for SASS and LESS style development. In addition the Grunt.js task runner configuration allows for easy modification to accomidate misc distribution needs. Currently working on support for: phoneGap, shopify and www.",
+  "license": "MIT",
+  "homepage": "charlietopjian.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {    
+  },
+  "devDependencies": {    
+  }
+}

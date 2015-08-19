@@ -1,0 +1,17 @@
+### ide ###
+*.project
+logs
+
+
+### node ###
+node_modules
+
+###bower components###
+bower_components
+/vendor
+
+### Distribution directory ###
+dist
+
+### Development items ###
+/app/assets/*
