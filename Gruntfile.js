@@ -1,5 +1,16 @@
 module.exports = function(grunt) {
 
+  var cfg = {
+    
+  }
+
+
+
+  // Load the plugins
+  //load-grunt-tasks instead of grunt.loadNpmTasks('grunt-contrib-concat');
+  //https://www.npmjs.com/package/load-grunt-tasks
+  require('load-grunt-tasks')(grunt);
+
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json')
@@ -48,6 +59,7 @@ module.exports = function(grunt) {
     }//Less
 
     ,sass: {
+      phoneGap: {
       options: {
 
         } 
@@ -76,10 +88,6 @@ module.exports = function(grunt) {
     
   }); //end of initConfig
 
-  // Load the plugins
-  grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-contrib-less');
-  grunt.loadNpmTasks('grunt-contrib-sass');
 
   // Default task(s).
   grunt.registerTask('default', ['concat']);
